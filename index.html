@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<title>GADGET WORLD | Premium Tech Gadgets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;scroll-behavior:smooth;}
+body{background:#0f0f0f;color:#fff;line-height:1.6;}
+header{background:#000;padding:20px 10%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;}
+header h1{color:#00ffcc;font-size:22px;letter-spacing:1px;}
+.btn{display:inline-block;padding:12px 25px;background:#00ffcc;color:#000;text-decoration:none;font-weight:600;border-radius:6px;transition:0.3s ease;}
+.btn:hover{background:#00ccaa;transform:translateY(-3px);}
+.hero{padding:120px 10%;text-align:center;background:linear-gradient(to right,#000,#111);}
+.hero h2{font-size:42px;margin-bottom:20px;text-shadow:0 0 15px #00ffcc;}
+.hero p{margin-bottom:30px;color:#ccc;font-size:17px;}
+.section{padding:90px 10%;text-align:center;}
+.section h3{margin-bottom:50px;font-size:32px;color:#00ffcc;}
+.products{display:flex;gap:30px;flex-wrap:wrap;justify-content:center;}
+.card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.2);padding:25px;width:280px;border-radius:12px;transition:0.4s;backdrop-filter:blur(10px);opacity:0;transform:translateY(20px);}
+.card:hover{transform:translateY(-10px);box-shadow:0 10px 25px rgba(0,255,204,0.4);border-color:#00ffcc;}
+.card img{width:100%;border-radius:10px;margin-bottom:15px;}
+.card h4{margin-bottom:10px;font-size:18px;}
+.card p{font-size:14px;margin-bottom:15px;color:#bbb;}
+.features{max-width:700px;margin:auto;text-align:left;font-size:16px;}
+.features p{margin-bottom:15px;}
+footer{background:#000;text-align:center;padding:30px 10%;color:#aaa;font-size:14px;}
+@media(max-width:768px){.hero h2{font-size:30px;}header{padding:15px 5%;}.section{padding:60px 5%}.hero{padding:80px 5%;}}
+</style>
+  </head>
+  <body>
+
+	<header>
+	  <h1>GADGET WORLD</h1>
+	  <a href="https://w.app/gadgetworld" class="btn">Chat on WhatsApp</a>
+	</header>
+
+	<section class="hero">
+	  <h2>Premium Tech Gadgets</h2>
+	  <p>Phones, Laptops, Game Consoles, Smartwatches, Headsets & More | 100% Original Devices | Fast Delivery in Jos, Nigeria</p>
+	  <a href="https://w.app/gadgetworld" class="btn">Shop Now</a>
+	</section>
+
+	<section class="section">
+	  <h3>Our Products</h3>
+	  <div class="products">
+
+		<div class="card">
+		  <img src="images/phone.jpg" alt="Smartphones">
+		  <h4>Smartphones</h4>
+		  <p>Latest iPhones, Samsung, Infinix & more.</p>
+		  <a href="phones.html" class="btn">View Products</a>
+		</div>
+
+		<div class="card">
+		  <img src="images/laptop.jpg" alt="Laptops">
+		  <h4>Laptops</h4>
+		  <p>Powerful laptops for work, school & gaming.</p>
+		  <a href="laptops.html" class="btn">View Products</a>
+		</div>
+
+		<div class="card">
+		  <img src="images/console.jpg" alt="Game Consoles">
+		  <h4>Game Consoles</h4>
+		  <p>PlayStation & Xbox consoles with accessories.</p>
+		  <a href="consoles.html" class="btn">View Products</a>
+		</div>
+
+		<div class="card">
+		  <img src="images/headset.jpg" alt="Headsets & Earbuds">
+		  <h4>Headsets & Earbuds</h4>
+		  <p>Wireless & wired headsets for clear sound.</p>
+		  <a href="headsets.html" class="btn">View Products</a>
+		</div>
+
+		<div class="card">
+		  <img src="images/iwatch.jpg" alt="iWatches & Smartwatches">
+		  <h4>iWatches & Smartwatches</h4>
+		  <p>Track your health & style with smartwatches.</p>
+		  <a href="iwatches.html" class="btn">View Products</a>
+		</div>
+
+		<div class="card">
+		  <img src="images/powerbank.jpg" alt="Power Banks">
+		  <h4>Power Banks</h4>
+		  <p>Reliable power banks to keep devices charged.</p>
+		  <a href="powerbanks.html" class="btn">View Products</a>
+		</div>
+
+		<div class="card">
+		  <img src="images/bluetooth.jpg" alt="Bluetooth Music Boxes">
+		  <h4>Bluetooth Music Boxes</h4>
+		  <p>Portable speakers for the ultimate music experience.</p>
+		  <a href="bluetooth.html" class="btn">View Products</a>
+		</div>
+
+	  </div>
+	</section>
+
+	<section class="section">
+	  <h3>Why Choose Us?</h3>
+	  <div class="features">
+		<p>✅ 100% Original Products</p>
+		<p>✅ Affordable & Competitive Prices</p>
+		<p>✅ Fast & Reliable Delivery in Jos</p>
+		<p>✅ Warranty Available</p>
+		<p>✅ Trusted Customer Service</p>
+	  </div>
+	</section>
+
+	<section class="hero">
+	  <h2>Upgrade Your Tech Today 🚀</h2>
+	  <p>Don’t Miss Out on the Best Deals</p>
+	  <a href="https://w.app/gadgetworld" class="btn">Chat With Us Now</a>
+	</section>
+
+	<footer>
+	  <p>© 2026 GADGET WORLD | Jos, Nigeria</p>
+	</footer>
+
+<script>
+const cards = document.querySelectorAll('.card');
+cards.forEach((card,i)=>{
+  setTimeout(()=>{
+    card.style.opacity='1';
+    card.style.transform='translateY(0)';
+  },i*150);
+});
+</script>
+
+  </body>
+</html>
